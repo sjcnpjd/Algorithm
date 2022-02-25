@@ -83,7 +83,7 @@ int main()
         }
     }
 
-    copy(&map[0][0], &map[0][0] + n * m, &result[0][0]);    //입력받은 행렬을 복사하여 result에 저장
+    copy(&map[0][0], &map[0][0] + 1001 * 1001, &result[0][0]);    //입력받은 행렬을 복사하여 result에 저장
 
     for (int i = 0; i < n; i++) 
     {
